@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import OneWeatherContent from "./components/OneWeatherContent";
+import Header from "./components/Header";
+import { Container } from "@mui/material";
+import WeatherContent from "./components/WeatherContent";
+import Title from "./ui/Title";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="wrapper">
+      <Header />
+      <main className="main">
+        <Container>
+          <Title>Current Weather</Title>
+          <OneWeatherContent />
+          <Title>Weather Forecast</Title>
+          <WeatherContent />
+        </Container>
+      </main>
     </div>
   );
-}
+};
 
 export default App;

@@ -1,0 +1,126 @@
+.card {
+  &__header {
+    .MuiCardHeader-title {
+      margin-right: 15px;
+    }
+
+    .MuiCardHeader-action {
+      display: inline-block;
+      align-items: center;
+      margin: 0;
+      padding: 5px 10px;
+      font-size: 20px;
+      background-color: rgb(243, 107, 16);
+      border-radius: 5px;
+      color: #fff;
+    }
+  }
+
+  &__icon {
+    width: 80px;
+    height: auto;
+    object-fit: cover;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  &__item {
+    flex: 1 1 auto;
+    margin: 0px 15px 20px 0px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+  }
+
+  &__info-item {
+    border-bottom: 1px solid rgb(104, 99, 99);
+
+    img {
+      margin: 0px 10px 0px 0px;
+      width: 24px;
+      height: 24px;
+      object-fit: cover;
+    }
+
+    & > .MuiTypography-root {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}
+
+.item-card {
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: dodgerblue;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+  }
+
+  &__weather {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  &__date {
+    margin: 0px 5px 0px 0px;
+  }
+
+  &__content {
+    padding: 10px;
+  }
+
+  &__icon {
+    margin: 0px 0px 15px 0px;
+    text-align: center;
+
+    img {
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+    }
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  &__info-item {
+    margin: 0px 0px 5px 0px;
+
+    &.item-card__info-wind {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 10px 0px 0px 0px;
+
+      img {
+        width: 20px;
+        height: 20px;
+        object-fit: cover;
+      }
+    }
+  }
+
+  &__info-name {
+    margin: 0px 0px 0px 5px;
+    font-weight: 700;
+  }
+
+  &__info-value {
+    font-size: 14px;
+    margin: 0px 0px 0px 3px;
+  }
+}
