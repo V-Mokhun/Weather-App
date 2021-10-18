@@ -1,13 +1,13 @@
 # My Weather app created with ReactJS
 You can search for a current weather or for a 5-day forecast in your city
 
-## You can watch this project via link: [] or by installing it and running on your computer as shown below
+## You can watch this project via link: []() or by installing it and running on your computer as shown below
 
 ## To install this app, run:
 
 ```sh
-git clone https://github.com/V-Mokhun/Weather-App (YOUR_FOLDER_NAME)
-cd weather-app (or the way you called your folder)
+git clone https://github.com/V-Mokhun/Weather-App [YOUR_FOLDER_NAME]
+cd weather-app [or the way you called your folder]
 yarn install
 yarn start
 ```
