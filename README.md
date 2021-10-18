@@ -1,7 +1,7 @@
 # My Weather app created with ReactJS
 You can search for a current weather or for a 5-day forecast in your city
 
-## You can watch this project via link: []() or by installing it and running on your computer as shown below
+## You can watch this project via link: [weather-app-my.netlify.app](weather-app-my.netlify.app) or by installing it and running on your computer as shown below
 
 ## To install this app, run:
 
